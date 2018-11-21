@@ -141,7 +141,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -858,7 +858,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999774, y: 0.99999774, z: 0.99999774}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1195,7 +1195,7 @@ RectTransform:
   - {fileID: 2130004907}
   - {fileID: 995450271}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1231,7 +1231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &190698369
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1243,7 +1243,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1388,7 +1388,7 @@ RectTransform:
   - {fileID: 461589642}
   - {fileID: 241127674}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1804,7 +1804,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 975315887}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2074,7 +2074,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587452494}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3074,8 +3074,9 @@ MonoBehaviour:
     longer, it must END! If I am to go down...
 
 
+    I''M TAKING YOU WITH ME!
 
-    I''M TAKING YOU WITH ME!'
+    (Press space to continue)...'
 --- !u!222 &331803850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3256,7 +3257,7 @@ RectTransform:
   - {fileID: 1097634323}
   - {fileID: 1346673706}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3305,7 +3306,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3768,8 +3769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47200003, y: 0}
   m_AnchorMax: {x: 0.47200003, y: 0}
-  m_AnchoredPosition: {x: 27.722534, y: -36.476616}
-  m_SizeDelta: {x: 231.5, y: 118.6}
+  m_AnchoredPosition: {x: 24.321, y: -39.4}
+  m_SizeDelta: {x: 231.5, y: 134.5}
   m_Pivot: {x: 0.56619716, y: -0.4761988}
 --- !u!114 &410530710
 MonoBehaviour:
@@ -3803,9 +3804,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How about we just activate the hyperdrive while we are aimed directly at
-    that idiot's ship, if you can't beat your enemy one way, shoot them with a bigger
+  m_Text: 'How about we just activate the hyperdrive while we are aimed directly at
+    that idiot''s ship, if you can''t beat your enemy one way, shoot them with a bigger
     bullet I always say. What could possibly go wrong?
+
+    (Press space to continue)...'
 --- !u!222 &410530711
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3840,7 +3843,7 @@ RectTransform:
   m_LocalScale: {x: 1.0000135, y: 1.0000135, z: 1.0000135}
   m_Children: []
   m_Father: {fileID: 975315887}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3909,7 +3912,7 @@ RectTransform:
   - {fileID: 894873840}
   - {fileID: 883971573}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4403,7 +4406,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50640325}
+      - m_Target: {fileID: 1119749519}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4701,7 +4704,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1834536744}
   - {fileID: 1788926249}
   - {fileID: 1243058286}
   - {fileID: 294478030}
@@ -4714,7 +4716,7 @@ RectTransform:
   - {fileID: 1994756931}
   - {fileID: 1800721726}
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4733,7 +4735,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MrPerson: {fileID: 294478029}
-  AreYouMrDark: 0
+  AreYouMrDark: 1
+  Gameplay: {fileID: 1781333372}
   MrPersonGameObject: {fileID: 587452493}
   MrPersonMusic: {fileID: 1012606186}
   GameOverScreen: {fileID: 1591448301}
@@ -4757,11 +4760,11 @@ MonoBehaviour:
   Right1: {fileID: 772291664}
   Right2: {fileID: 1173690302}
   Right3: {fileID: 353380750}
-  Instruction: {fileID: 371676055}
+  Instruction: {fileID: 0}
   ShipHealth: {fileID: 980251815}
-  SHealth: 2000
+  SHealth: 1000
   EnemyHealth: {fileID: 793412271}
-  PressedButton: 1
+  PressedButton: 0
   ShieldStatus: {fileID: 1465756569}
   BabyMode: 0
   Easy: 1
@@ -5021,7 +5024,7 @@ RectTransform:
   m_LocalScale: {x: 1.0000098, y: 1.0000098, z: 1.0000098}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5044,14 +5047,14 @@ MonoBehaviour:
   kyf: {fileID: 0}
   ReloadTime: 5
   InstructionArray:
-  - A - Turn Left
-  - D - Turn Right
-  - R - Big Red Button
-  - W - Attack
-  - Space - Health
-  - Q - Oxygen
-  - S - Sheilds
-  - E - Jump To Hyperspace
+  - A Turn Left
+  - D Turn Right
+  - R Big Red Button
+  - W Attack
+  - Space Health
+  - Q Oxygen
+  - S Sheilds
+  - E Jump To Hyperspace
 --- !u!114 &620299013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5830,8 +5833,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.7e-14, y: 18.95}
-  m_SizeDelta: {x: 803.4, y: 477.9}
+  m_AnchoredPosition: {x: -3, y: 20}
+  m_SizeDelta: {x: 803.4, y: 359.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654656577
 MonoBehaviour:
@@ -5854,7 +5857,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -5868,7 +5871,6 @@ MonoBehaviour:
   m_Text: 'Credits:
 
     Programmer/Designer/Artist: Caleb Dan Gammons
-
 
     Music:
 
@@ -5937,7 +5939,7 @@ RectTransform:
   m_LocalScale: {x: 1.0000135, y: 1.0000135, z: 1.0000135}
   m_Children: []
   m_Father: {fileID: 975315887}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6750,7 +6752,7 @@ RectTransform:
   - {fileID: 688788856}
   - {fileID: 1371343576}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6802,8 +6804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47200003, y: 0}
   m_AnchorMax: {x: 0.47200003, y: 0}
-  m_AnchoredPosition: {x: 27.722534, y: -36.476616}
-  m_SizeDelta: {x: 231.5, y: 118.6}
+  m_AnchoredPosition: {x: 24.3, y: -43.90001}
+  m_SizeDelta: {x: 231.5, y: 140.2}
   m_Pivot: {x: 0.56619716, y: -0.4761988}
 --- !u!114 &773882127
 MonoBehaviour:
@@ -6843,7 +6845,9 @@ MonoBehaviour:
 
     Mr. Dark: Hello, I''m Mr. Universe!
 
-    Mr. Light: Why do I even bother?'
+    Mr. Light: Why do I even bother?
+
+    (Press space to continue)...'
 --- !u!222 &773882128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7013,7 +7017,7 @@ RectTransform:
   - {fileID: 1075584407}
   - {fileID: 1332642718}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7278,7 +7282,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7737,7 +7741,7 @@ RectTransform:
   - {fileID: 1622064384}
   - {fileID: 1636925914}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8234,7 +8238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -206}
+  m_AnchoredPosition: {x: 0, y: -203}
   m_SizeDelta: {x: 226.7, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921280177
@@ -8711,7 +8715,9 @@ MonoBehaviour:
   m_Text: '
 
     He blows up my ship, and thinks that I''m just a helpless buffoon well just wait
-    till that candlestick goody two shoes jerk gets a taste of this!'
+    till that candlestick goody two shoes jerk gets a taste of this!
+
+    (Press space to continue)...'
 --- !u!222 &940610390
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8900,7 +8906,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2082538222}
   - {fileID: 279244873}
   - {fileID: 1086566003}
   - {fileID: 672732541}
@@ -8913,7 +8918,7 @@ RectTransform:
   - {fileID: 858917325}
   - {fileID: 1607122615}
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8933,6 +8938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MrPerson: {fileID: 672732540}
   AreYouMrDark: 0
+  Gameplay: {fileID: 1781333372}
   MrPersonGameObject: {fileID: 975315886}
   MrPersonMusic: {fileID: 1297376773}
   GameOverScreen: {fileID: 1591448301}
@@ -8956,11 +8962,11 @@ MonoBehaviour:
   Right1: {fileID: 417729667}
   Right2: {fileID: 776991563}
   Right3: {fileID: 236957619}
-  Instruction: {fileID: 371676055}
+  Instruction: {fileID: 0}
   ShipHealth: {fileID: 980251815}
-  SHealth: 2000
+  SHealth: 1000
   EnemyHealth: {fileID: 793412271}
-  PressedButton: 1
+  PressedButton: 0
   ShieldStatus: {fileID: 1465756569}
   BabyMode: 0
   Easy: 1
@@ -9040,7 +9046,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9666,8 +9672,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 36.5}
-  m_SizeDelta: {x: 803.4, y: 413.2}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 803.4, y: 375.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028505437
 MonoBehaviour:
@@ -9690,7 +9696,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_FontSize: 11
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -9701,29 +9707,29 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Symbol Definitions\nFor Example using Easy Level Stats:\nBig Red Button:
-    Deals 16 Damage to opponent, if you hit any other button while this instruction
+  m_Text: "Symbol Definitions\nFor Example using Easy Level Stats:\n\nBig Red Button:
+    Deals 16 Damage to opponent. \nIf you hit any other button while this instruction
     comes up, your ship is dealt the 16 damage.\n\nAttack : Lighting Symbol: Deals
-    8 Damage to opponent, if you hit any other button while this instruction comes
+    8 Damage to opponent. \nIf you hit any other button while this instruction comes
     up, your ship is dealt the 16 damage.\n\nHealth : Heart Symbol: Heals 8 Health
-    back to your ship, if you hit any other button while this instruction comes up,
-    your ship is dealt the 1 damage.\n\nRestore Oxygen : Blue/Purple Triangles: Heals
-    4 Health back to your ship, if you hit any other button while this instruction
+    back to your ship. \nIf you hit any other button while this instruction comes
+    up, your ship is dealt the 1 damage.\n\nRestore Oxygen : Blue/Purple Triangles:
+    Heals 4 Health back to your ship. \nIf you hit any other button while this instruction
     comes up, your ship is dealt the 1 damage.\n\nShields : 3 sided star: If you successfully
     hit this button in time, you will not be dealt damage on the next time you hit
-    a wrong button. If you hit any other button while this instruction comes up, your
-    ship is dealt the 1 damage.\n\nJump to Hyperspace: 5 sided star: You will not
-    gain anything if you hit this button correctly. If you hit any other button while
-    this instruction comes up, your ship is dealt the 1 damage.\n\nTurn Left: Center
-    Control Panel Left Button: You will not gain anything if you hit this button correctly.
-    If you hit any other button while this instruction comes up, your ship is dealt
-    the 1 damage.\n\nTurn Right: Center Control Panel Left Button: You will not gain
-    anything if you hit this button correctly. If you hit any other button while this
-    instruction comes up, your ship is dealt the 1 damage.\n\nIf you don't hit a button
-    before it changes the instruction, you receive 1 point of damage.\n\nEasy: Damage
-    8, Minor Damage 1, Don't Hit Any Button Damage 1 \nMedium: Damage 12, Minor Damage
-    3, Don't Hit Any Button Damage 3 \nEexcruciatingly Hard: Damage 16, Minor Damage
-    6, Don't Hit Any Button Damage 6\n"
+    a wrong button. \nIf you hit any other button while this instruction comes up,
+    your ship is dealt the 1 damage.\n\nJump to Hyperspace: 5 sided star: You will
+    not gain anything if you hit this button correctly. \nIf you hit any other button
+    while this instruction comes up, your ship is dealt the 1 damage.\n\nTurn Left:
+    Center Control Panel Left Button: You will not gain anything if you hit this button
+    correctly. \nIf you hit any other button while this instruction comes up, your
+    ship is dealt the 1 damage.\n\nTurn Right: Center Control Panel Left Button: You
+    will not gain anything if you hit this button correctly. \nIf you hit any other
+    button while this instruction comes up, your ship is dealt the 1 damage.\n\nIf
+    you don't hit a button before it changes the instruction, you receive 1 point
+    of damage.\n\nEasy: Damage 8, Minor Damage 1, Don't Hit Any Button Damage 1 \nMedium:
+    Damage 12, Minor Damage 3, Don't Hit Any Button Damage 3 \nEexcruciatingly Hard:
+    Damage 16, Minor Damage 6, Don't Hit Any Button Damage 6\n"
 --- !u!222 &1028505438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10294,12 +10300,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 975315887}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0.0000019073, y: 129.7}
+  m_SizeDelta: {x: 158.6, y: 137.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086566004
 MonoBehaviour:
@@ -10485,7 +10491,9 @@ MonoBehaviour:
     Mr. Dark: I think I broke something!
 
 
-    Mr. Light: OOOOOUUUUCCCCHH!!'
+    Mr. Light: OOOOOUUUUCCCCHH!!
+
+    (Press space to continue)...'
 --- !u!222 &1098704349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10520,7 +10528,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10693,7 +10701,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587452494}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10949,7 +10957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1161709552
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11104,7 +11112,7 @@ RectTransform:
   - {fileID: 1613559212}
   - {fileID: 343770842}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11411,7 +11419,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50640325}
+      - m_Target: {fileID: 1692424021}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -11519,12 +11527,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587452494}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0.0000019073, y: 129.7}
+  m_SizeDelta: {x: 158.6, y: 137.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1243058287
 MonoBehaviour:
@@ -11639,74 +11647,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1251374629}
---- !u!1 &1259689621
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1259689622}
-  - component: {fileID: 1259689624}
-  - component: {fileID: 1259689623}
-  m_Layer: 5
-  m_Name: EnemyTextBackground
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1259689622
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1259689621}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1781333373}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.1, y: 53.4}
-  m_SizeDelta: {x: 277.9, y: 86.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1259689623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1259689621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4fdaa6fa1abe6af4997621494805cf52, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1259689624
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1259689621}
 --- !u!1 &1260409828
 GameObject:
   m_ObjectHideFlags: 0
@@ -11736,7 +11676,7 @@ RectTransform:
   - {fileID: 1663928845}
   - {fileID: 1532099858}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11829,7 +11769,7 @@ MonoBehaviour:
 
     Mr. Dark: Yeah, but I''m the REAL Mr. Universe!
 
-    Press space to return to Main Menu.
+    (Press space to continue)...
 
 '
 --- !u!222 &1263521651
@@ -12589,7 +12529,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 488719552}
+      - m_Target: {fileID: 1472733545}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -12750,8 +12690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218, y: -112.6}
-  m_SizeDelta: {x: 321.3, y: 252.3}
+  m_AnchoredPosition: {x: 218, y: -100.2}
+  m_SizeDelta: {x: 321.3, y: 312.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330262514
 MonoBehaviour:
@@ -12926,6 +12866,8 @@ MonoBehaviour:
 
 
     Mr. Light: OH YOU THINK SO, DO YA?!
+
+    (Press space to continue)...
 
 '
 --- !u!222 &1339530250
@@ -13493,8 +13435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -188.27}
-  m_SizeDelta: {x: 321.3, y: 161.3}
+  m_AnchoredPosition: {x: -14, y: -173.1}
+  m_SizeDelta: {x: 321.3, y: 191.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1401789787
 MonoBehaviour:
@@ -13600,7 +13542,9 @@ MonoBehaviour:
 
 
     Mr. Dark: You know on second thought, this may have been the worst idea I''ve
-    ever had....'
+    ever had....
+
+    (Press space to continue)...'
 --- !u!222 &1417222660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13948,7 +13892,9 @@ MonoBehaviour:
   m_Text: '
 
     SO THAT STUPID SUPERNATURAL NIGHT LIGHT THINKS HE CAN DEFEAT ME AND BECOME MR.
-    UNIVERSE DOES HE?'
+    UNIVERSE DOES HE?
+
+    (Press space to continue)...'
 --- !u!222 &1441691696
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14026,7 +13972,9 @@ MonoBehaviour:
     have listened to my mother and gone to school for accounting.
 
 
-    Mr. Light: You''re the literal Devil.'
+    Mr. Light: You''re the literal Devil.
+
+    (Press space to continue)...'
 --- !u!222 &1453666335
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14066,8 +14014,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 229, y: -144}
-  m_SizeDelta: {x: 321.3, y: 161.3}
+  m_AnchoredPosition: {x: 217, y: -154}
+  m_SizeDelta: {x: 321.3, y: 193}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458770111
 MonoBehaviour:
@@ -14130,7 +14078,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999416, y: 0.99999416, z: 0.99999416}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14353,7 +14301,9 @@ MonoBehaviour:
     I was so close, why won''t
 
     you see that I am Mr. Universe. Why can''t you just see that without me you are
-    nothing and that''s what makes me Mr. Universe!'
+    nothing and that''s what makes me Mr. Universe!
+
+    (Press space to continue)...'
 --- !u!222 &1533909599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14569,8 +14519,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47200003, y: 0}
   m_AnchorMax: {x: 0.47200003, y: 0}
-  m_AnchoredPosition: {x: 24.321, y: -59.700005}
-  m_SizeDelta: {x: 231.5, y: 186.9}
+  m_AnchoredPosition: {x: 24.321, y: -69.7}
+  m_SizeDelta: {x: 231.5, y: 227.3}
   m_Pivot: {x: 0.56619716, y: -0.4761988}
 --- !u!114 &1561571342
 MonoBehaviour:
@@ -14612,6 +14562,8 @@ MonoBehaviour:
 
     Mr. Dark: Light, we literally can''t die. All we can do is hurt...I''m so sore
     and in pain, I can''t move.
+
+    (Press space to continue)...
 
 '
 --- !u!222 &1561571343
@@ -14752,7 +14704,7 @@ RectTransform:
   - {fileID: 708989152}
   - {fileID: 1200589155}
   m_Father: {fileID: 975315887}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -15450,7 +15402,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 488719552}
+      - m_Target: {fileID: 1075450258}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -16061,8 +16013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207, y: -131}
-  m_SizeDelta: {x: 321.3, y: 161.3}
+  m_AnchoredPosition: {x: 211, y: -162}
+  m_SizeDelta: {x: 321.3, y: 187.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734569083
 MonoBehaviour:
@@ -16375,7 +16327,9 @@ MonoBehaviour:
 
 
 
-    HE WOULDN''T DARE?!'
+    HE WOULDN''T DARE?!
+
+    (Press space to continue)...'
 --- !u!222 &1747118301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16545,7 +16499,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1774813355}
-  - {fileID: 1259689622}
   - {fileID: 135522911}
   - {fileID: 620299011}
   - {fileID: 371676054}
@@ -16662,7 +16615,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587452494}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16736,7 +16689,7 @@ RectTransform:
   m_LocalScale: {x: 1.0000135, y: 1.0000135, z: 1.0000135}
   m_Children: []
   m_Father: {fileID: 975315887}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16805,7 +16758,7 @@ RectTransform:
   - {fileID: 850027587}
   - {fileID: 310944382}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16894,17 +16847,17 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1025892637}
-        m_MethodName: 
-        m_Mode: 1
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1161709551}
+      - m_Target: {fileID: 279962443}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -16916,6 +16869,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1297376773}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 975315886}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -17014,7 +16978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -235}
+  m_AnchoredPosition: {x: -3, y: -174.75}
   m_SizeDelta: {x: 226.7, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820894039
@@ -17190,74 +17154,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1821845870}
---- !u!1 &1834536743
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1834536744}
-  - component: {fileID: 1834536746}
-  - component: {fileID: 1834536745}
-  m_Layer: 5
-  m_Name: TextImageMrLight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1834536744
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1834536743}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 587452494}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59.6, y: 52.1}
-  m_SizeDelta: {x: 54.9, y: 52.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1834536745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1834536743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3977e6dfe78c4de47afa479ff804cc2b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1834536746
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1834536743}
 --- !u!1 &1866142326
 GameObject:
   m_ObjectHideFlags: 0
@@ -17424,8 +17320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 80.65}
-  m_SizeDelta: {x: 321.3, y: 161.3}
+  m_AnchoredPosition: {x: 0, y: 66.2}
+  m_SizeDelta: {x: 321.3, y: 190.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873092792
 MonoBehaviour:
@@ -17548,7 +17444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1883373775
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17668,7 +17564,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1781333373}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17746,8 +17642,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47200003, y: 0}
   m_AnchorMax: {x: 0.47200003, y: 0}
-  m_AnchoredPosition: {x: 27.722534, y: -36.476616}
-  m_SizeDelta: {x: 231.5, y: 118.6}
+  m_AnchoredPosition: {x: 24.321, y: -47.300003}
+  m_SizeDelta: {x: 231.5, y: 144.5}
   m_Pivot: {x: 0.56619716, y: -0.4761988}
 --- !u!114 &1895440801
 MonoBehaviour:
@@ -17781,9 +17677,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mr. Dark, I wish I could have help you. Now that I am clearly Mr. Universe,
+  m_Text: 'Mr. Dark, I wish I could have help you. Now that I am clearly Mr. Universe,
     I wish that you could have admitted that you cannot exist without me, its a shame
     I had to bring about your end. Wait, what is that idiot doing NOW?
+
+    (Press space to continue)...'
 --- !u!222 &1895440802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17890,8 +17788,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47200003, y: 0}
   m_AnchorMax: {x: 0.47200003, y: 0}
-  m_AnchoredPosition: {x: 27.722534, y: -36.476616}
-  m_SizeDelta: {x: 231.5, y: 118.6}
+  m_AnchoredPosition: {x: 24.321, y: -41.800003}
+  m_SizeDelta: {x: 231.5, y: 138.8}
   m_Pivot: {x: 0.56619716, y: -0.4761988}
 --- !u!114 &1912490698
 MonoBehaviour:
@@ -17928,6 +17826,8 @@ MonoBehaviour:
   m_Text: 'Mr. Light: I hurt in places I didn''t even know existed. I didn''t even
     know it was possible for us too bleed either. Dark, you just wait till I get my
     hands on you, just look at the...Oh man do I had a headache....
+
+    (Press space to continue)...
 
 '
 --- !u!222 &1912490699
@@ -18658,7 +18558,7 @@ MonoBehaviour:
   TitleScreen: {fileID: 976947583}
   TitleScreenMusic: {fileID: 1025892637}
   tending: {fileID: 1973136001}
-  temusic: {fileID: 0}
+  temusic: {fileID: 630258260}
   TrueEndingParts:
   - {fileID: 1129020719}
   - {fileID: 2083084782}
@@ -18705,7 +18605,7 @@ RectTransform:
   - {fileID: 395083142}
   - {fileID: 1086366891}
   m_Father: {fileID: 587452494}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -18875,7 +18775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 488719552}
+      - m_Target: {fileID: 329497239}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -19168,7 +19068,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50640325}
+      - m_Target: {fileID: 1728091319}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -19322,7 +19222,7 @@ MonoBehaviour:
 
     DARK!!!!!!!
 
-'
+    (Press space to continue)...'
 --- !u!222 &2051756841
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19558,7 +19458,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587452494}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19598,74 +19498,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2063583176}
---- !u!1 &2082538221
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2082538222}
-  - component: {fileID: 2082538224}
-  - component: {fileID: 2082538223}
-  m_Layer: 5
-  m_Name: TextImageMrDark
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2082538222
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2082538221}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 975315887}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59.6, y: 52.1}
-  m_SizeDelta: {x: 54.9, y: 52.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2082538223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2082538221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 22e2b037cabb5cc4aa63718d7f34f3c8, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &2082538224
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2082538221}
 --- !u!1 &2083084782
 GameObject:
   m_ObjectHideFlags: 0

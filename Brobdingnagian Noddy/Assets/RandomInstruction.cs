@@ -7,30 +7,13 @@ public class RandomInstruction : MonoBehaviour {
     public Text text;
     public GameObject thisObject;
     public KeyFunctions kyf;
-    public int ReloadTime = 5;
+    public float ReloadTime = 3;
     public string[] InstructionArray;
     float xTimer = 0.0f;
 
 
 	// Update is called once per frame
 	void Update () {
-
-        if (kyf.Easy == true)
-        {
-            ReloadTime = 5;
-        }
-        else if (kyf.Medium == true)
-        {
-            ReloadTime = 4;
-        }
-        else if (kyf.Excruciatinglyhard == true)
-        {
-            ReloadTime = 3;
-        }
-        else if (kyf.UFB == true)
-        {
-            ReloadTime = 2;
-        }
 
         if (thisObject == null)
         {
@@ -40,6 +23,23 @@ public class RandomInstruction : MonoBehaviour {
         if(kyf == null)
         {
             kyf = thisObject.GetComponent<KeyFunctions>();
+        }
+
+        if (kyf.Easy == true)
+        {
+            ReloadTime = 3;
+        }
+        else if (kyf.Medium == true)
+        {
+            ReloadTime = 2;
+        }
+        else if (kyf.Excruciatinglyhard == true)
+        {
+            ReloadTime = 1f;
+        }
+        else if (kyf.UFB == true)
+        {
+            ReloadTime = 0.9f;
         }
 
         if (xTimer > ReloadTime || text.text == "")
@@ -65,6 +65,11 @@ public class RandomInstruction : MonoBehaviour {
                 } else if(kyf.Excruciatinglyhard == true)
                 {
                     kyf.SHealth -= 6;
+                    kyf.ShipHealth.text = kyf.SHealth.ToString();
+                    kyf.PressedButton = false;
+                } else if(kyf.UFB == true)
+                {
+                    kyf.SHealth -= 10;
                     kyf.ShipHealth.text = kyf.SHealth.ToString();
                     kyf.PressedButton = false;
                 }
