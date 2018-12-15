@@ -9,7 +9,14 @@ public class RandomInstruction : MonoBehaviour {
     public KeyFunctions kyf;
     public float ReloadTime = 3;
     public string[] InstructionArray;
+    public bool[] InstructionBoolArray;
     float xTimer = 0.0f;
+    int i = 0;
+
+    void Start()
+    {
+        InstructionBoolArray = new bool[InstructionArray.Length];
+    }
 
 
 	// Update is called once per frame
@@ -44,7 +51,18 @@ public class RandomInstruction : MonoBehaviour {
 
         if (xTimer > ReloadTime || text.text == "")
         {
-            text.text = InstructionArray[Random.Range(0, InstructionArray.Length - 1)];
+            i = Random.Range(0, InstructionArray.Length - 1);
+            text.text = InstructionArray[i];
+            for(int c = 0; c < InstructionBoolArray.Length; c++)
+            {
+                if(c != i)
+                {
+                    InstructionBoolArray[c] = false;
+                } else
+                {
+                    InstructionBoolArray[c] = true;
+                }
+            }
             xTimer = 0;
             if(kyf.PressedButton == true)
             {
@@ -69,7 +87,7 @@ public class RandomInstruction : MonoBehaviour {
                     kyf.PressedButton = false;
                 } else if(kyf.UFB == true)
                 {
-                    kyf.SHealth -= 10;
+                    kyf.SHealth -= 12;
                     kyf.ShipHealth.text = kyf.SHealth.ToString();
                     kyf.PressedButton = false;
                 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class KeyFunctions : MonoBehaviour {
+    public RandomInstruction Carl;
     public GameObject MrPerson;
     public bool AreYouMrDark;
     public GameObject Gameplay;
@@ -11,7 +12,7 @@ public class KeyFunctions : MonoBehaviour {
     public GameObject MrPersonMusic;
     public GameObject GameOverScreen;
     public GameObject GameOverMusic;
-    public GameObject Dvic1, Dvic2, Dvic3, Dvic4, Lvic1, Lvic2, Lvic3, Lvic4, UltEnding;
+    public GameObject Dvic1, Dvic2, Dvic3, Dvic4, Lvic1, Lvic2, Lvic3, Lvic4, UltEndingDark, UltEndingLight;
     public GameObject VictoryMusic;
     public GameObject UltEndingMusic;
     public GameObject LeftButtonPress;
@@ -51,8 +52,12 @@ public class KeyFunctions : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Carl == null)
+        {
+            Carl = Instruction.GetComponent<RandomInstruction>();
+        }
 
-        if(SHealth <= 0)
+        if (SHealth <= 0)
         {
             Gameplay.SetActive(false);
             MrPersonGameObject.SetActive(false);
@@ -192,15 +197,32 @@ public class KeyFunctions : MonoBehaviour {
             }
             else if (UFB == true)
             {
-                Gameplay.SetActive(false);
-                MrPersonGameObject.SetActive(false);
-                MrPersonMusic.SetActive(false);
-                UltEnding.SetActive(true);
-                UltEndingMusic.SetActive(true);
-                SHealth = 1000;
-                ShipHealth.text = SHealth.ToString();
-                EHealth = 1200;
-                EnemyHealth.text = EHealth.ToString();
+                if (AreYouMrDark == true)
+                {
+                    Debug.Log("made it here dark");
+                    Gameplay.SetActive(false);
+                    MrPersonGameObject.SetActive(false);
+                    MrPersonMusic.SetActive(false);
+                    UltEndingDark.SetActive(true);
+                    UltEndingMusic.SetActive(true);
+                    SHealth = 1000;
+                    ShipHealth.text = SHealth.ToString();
+                    EHealth = 1200;
+                    EnemyHealth.text = EHealth.ToString();
+                }
+                else if(AreYouMrDark == false)
+                {
+                    Debug.Log("made it here light");
+                    Gameplay.SetActive(false);
+                    MrPersonGameObject.SetActive(false);
+                    MrPersonMusic.SetActive(false);
+                    UltEndingLight.SetActive(true);
+                    UltEndingMusic.SetActive(true);
+                    SHealth = 1000;
+                    ShipHealth.text = SHealth.ToString();
+                    EHealth = 1200;
+                    EnemyHealth.text = EHealth.ToString();
+                }
             }
         }
 
@@ -218,7 +240,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if(Instruction.text == "Attack" || Instruction.text == "W Attack")
+            if(Carl.InstructionBoolArray[3] == true)
             {
                 EHealth -= Damage;
                 EnemyHealth.text = EHealth.ToString();
@@ -251,7 +273,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Turn Left" || Instruction.text == "A Turn Left")
+            if (Carl.InstructionBoolArray[0] == false)
             {
                 if (Shields == true)
                 {
@@ -279,7 +301,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(true);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Sheilds" || Instruction.text == "S Sheilds")
+            if (Carl.InstructionBoolArray[6] == true)
             {
                 Shields = true;
                 ShieldStatus.text = "ON";
@@ -311,9 +333,8 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Turn Right" || Instruction.text == "D Turn Right")
+            if (Carl.InstructionBoolArray[1] == false)
             {
-
                 if (Shields == true)
                 {
                     Shields = false;
@@ -324,6 +345,10 @@ public class KeyFunctions : MonoBehaviour {
                     SHealth -= MinorDamage;
                     ShipHealth.text = SHealth.ToString();
                 }
+            }
+            else
+            {
+                ShipHealth.text = SHealth.ToString();
             }
         }
 
@@ -340,7 +365,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Health" || Instruction.text == "Space Health")
+            if (Carl.InstructionBoolArray[4] == true)
             {
                 if (SHealth + 8 < 1000)
                 {
@@ -380,7 +405,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Oxygen" || Instruction.text == "Q Oxygen")
+            if (Carl.InstructionBoolArray[5] == true)
             {
                 if (SHealth + 4 < 1000)
                 {
@@ -421,7 +446,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(true);
 
-            if (Instruction.text == "Jump To Hyperspace" || Instruction.text == "E Jump To Hyperspace")
+            if (Carl.InstructionBoolArray[7] == false)
             {
                 if (Shields == true)
                 {
@@ -449,7 +474,7 @@ public class KeyFunctions : MonoBehaviour {
             Right2.SetActive(false);
             Right3.SetActive(false);
 
-            if (Instruction.text == "Big Red Button" || Instruction.text == "R Big Red Button")
+            if (Carl.InstructionBoolArray[2] == true)
             {
                 EHealth -= Damage * 2;
                 EnemyHealth.text = EHealth.ToString();
